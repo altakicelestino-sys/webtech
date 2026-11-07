@@ -1,0 +1,2457 @@
+commit 27e16ddcb8d8b83bca81a31866a1ffcf26dbae2d
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-11-07 09:03:39 +0000
+Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+CommitDate: 2026-11-07 09:03:39 +0000
+
+    Updated files
+
+diff --git a/Celestino.txt b/Celestino.txt
+deleted file mode 100644
+index 73abcee..0000000
+--- a/Celestino.txt
++++ /dev/null
+@@ -1,787 +0,0 @@
+-commit 183dbfb5069e7894d96bbbe9209e5236107f0287
+-Merge: 75fa996 de83b0a
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-11-07 04:23:26 +0000
+-Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+-CommitDate: 2026-11-07 04:23:26 +0000
+-
+-    Merge branch 'main' of https://github.com/altakicelestino-sys/webtech
+-
+-commit 75fa996eedaa4a8caba5348e2281180dcb0d8ef9
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-11-07 04:20:02 +0000
+-Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+-CommitDate: 2026-11-07 04:20:02 +0000
+-
+-    Completed Emmet Laboratory Activity
+-
+-diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+-index 84f0995..f6f0393 100644
+---- a/emmet-laboratory/portfolio.html
+-+++ b/emmet-laboratory/portfolio.html
+-@@ -24,7 +24,7 @@
+-     <section>Projects
+-         <h1>Portfolio</h1>
+-         <p>A compilation of html codes in CIT14</p>
+--        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
+-+        <a href=""></a>
+-     </section>
+-     <section>Contact
+-         <h3>Wil Harvey B Celestino</h3>
+-
+-commit 69b655b3888b1878acf0e86bb6efb0a01f2f2ba1
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-11-07 04:17:45 +0000
+-Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+-CommitDate: 2026-11-07 04:17:45 +0000
+-
+-    Completed Emmet Laboratory Activity
+-
+-diff --git a/README.md b/README.md
+-deleted file mode 100644
+-index 99f5971..0000000
+---- a/README.md
+-+++ /dev/null
+-@@ -1 +0,0 @@
+--# webtech
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+-new file mode 100644
+-index 0000000..d9729fe
+---- /dev/null
+-+++ b/emmet-laboratory/01-basic.html
+-@@ -0,0 +1,20 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <h1></h1> 
+-+    <h2></h2>
+-+    <h2></h2>
+-+    <p></p>
+-+    <p></p>
+-+    <p></p>
+-+    <div></div>
+-+    <nav></nav>
+-+    <main></main>
+-+    <footer></footer>   
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+-new file mode 100644
+-index 0000000..2b6722e
+---- /dev/null
+-+++ b/emmet-laboratory/02-classes-ids.html
+-@@ -0,0 +1,59 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <p class="introduction"></p>
+-+    <div id="container"></div>
+-+    <div class="card featured"></div>
+-+    <section id="about" class="content-section"></section>
+-+    <h1 class="site-header"></h1>
+-+    <nav id="main-nav"></nav>
+-+    <main class="content"></main>
+-+    <section class="about"></section>
+-+    <footer class="site-footer"></footer>
+-+    <ul>
+-+        <li></li>
+-+    </ul>
+-+    <nav>
+-+        <ul>
+-+            <li></li>
+-+        </ul>
+-+    </nav>
+-+    <nav>
+-+        <ul>
+-+            <li></li>
+-+            <li></li>
+-+            <li></li>
+-+            <li></li>
+-+            <li></li>
+-+        </ul>
+-+    </nav>
+-+    <h1></h1>
+-+    <p></p>
+-+    <h1></h1>
+-+    <h2></h2>
+-+    <p></p>
+-+    <p></p>
+-+    <li></li>
+-+    <li></li>
+-+    <li></li>
+-+    <li></li>
+-+    <li></li>
+-+    <div></div>
+-+    <div></div>
+-+    <div></div>
+-+    <p></p>
+-+    <p></p>
+-+    <p></p>
+-+    <p></p>
+-+    <p></p>
+-+    <h1>Web Technologies</h1>
+-+    <p>Welcome to my webpage.</p>
+-+    <h1>My Web Development Journey</h1>
+-+    <p>I am learning HTML,CSS, JavaScript, and web development</p>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+-new file mode 100644
+-index 0000000..2be25aa
+---- /dev/null
+-+++ b/emmet-laboratory/03-navigation.html
+-@@ -0,0 +1,63 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <ul>
+-+        <li class="item1"></li>
+-+        <li class="item2"></li>
+-+        <li class="item3"></li>
+-+        <li class="item4"></li>
+-+        <li class="item5"></li>
+-+    </ul>
+-+    <ul>
+-+        <li>menu 1</li>
+-+        <li>menu 2</li>
+-+        <li>menu 3</li>
+-+        <li>menu 4</li>
+-+        <li>menu 5</li>
+-+    </ul>
+-+    <nav>
+-+        <ul>
+-+            <li><a href="">Home</a></li>
+-+            <li><a href="">About</a></li>
+-+            <li><a href="">Services</a></li>
+-+            <li><a href="">Projects</a></li>
+-+            <li><a href="">Contact</a></li>
+-+        </ul>
+-+    </nav>
+-+    <nav>
+-+        <ul>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+        </ul>
+-+    </nav>
+-+    <nav>
+-+        <ul>
+-+            <li><a href="">menu</a></li>
+-+            <li><a href="">menu</a></li>
+-+            <li><a href="">menu</a></li>
+-+            <li><a href="">menu</a></li>
+-+            <li><a href="">menu</a></li>
+-+        </ul>
+-+    </nav>
+-+    <nav>
+-+        <ul>
+-+            <li><a href="">Home</a></li>
+-+            <li><a href="">About</a></li>
+-+            <li><a href="">Portfolio</a></li>
+-+            <li><a href="">Services</a></li>
+-+            <li><a href="">Contact</a></li>
+-+        </ul>
+-+    </nav>
+-+    <input type="text">
+-+    <input type="text" placeholder="Enter your name">
+-+    <input type="email" placeholder="Enter your email"> 
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+-new file mode 100644
+-index 0000000..d6f83e3
+---- /dev/null
+-+++ b/emmet-laboratory/04-form.html
+-@@ -0,0 +1,25 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <input type="text" name="" id="">
+-+    <input type="email" name="" id="">
+-+    <input type="password" name="" id="">
+-+    <input type="checkbox" name="" id="">
+-+    <input type="radio" name="" id="">
+-+    <input type="submit" value="">
+-+    <div><input type="text" name="Student ID: " placeholder="Enter your ID number"></div>
+-+    <div><input type="text" name="Full Name: " placeholder="Enter your Full Name"></div>
+-+    <div><input type="email" name="Email: " placeholder="Enter your email></div>
+-+    <div><input type= "password" name="Password" placeholder=""></div>
+-+    <div><input type="text" name="Gender" placeholder=""></div>
+-+    <div><input type="text" name="Course" placeholder=""></div>
+-+    <div><input type="text" name="Hobbies" placeholder=""></div>
+-+    <div><input type="text" name="Address" placeholder=""></div>
+-+    <div><input type="submit" name="Submit Button" placeholder=""></div>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+-new file mode 100644
+-index 0000000..a943885
+---- /dev/null
+-+++ b/emmet-laboratory/05-semantic.html
+-@@ -0,0 +1,50 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <header></header>
+-+    <nav></nav>
+-+    <main></main>
+-+    <section></section>
+-+    <article></article>
+-+    <aside></aside>
+-+    <footer></footer>
+-+    <header>
+-+        <h1></h1>
+-+    </header>
+-+    <nav>
+-+        <ul>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+            <li><a href=""></a></li>
+-+        </ul>
+-+    </nav>
+-+    <main>
+-+        <section>
+-+            <article></article>
+-+        </section>
+-+    </main>
+-+    <footer>
+-+        <p></p>
+-+    </footer>
+-+    <div class="container">
+-+        <header>
+-+            <h1>My Portfolio</h1>
+-+            <p>Web Developer</p>
+-+            <nav>
+-+                <ul>
+-+                    <li><a href="">Menu 1</a></li>
+-+                    <li><a href="">Menu 2</a></li>
+-+                    <li><a href="">Menu 3</a></li>
+-+                    <li><a href="">Menu 4</a></li>
+-+                </ul>
+-+            </nav>
+-+        </header>
+-+    </div>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+-new file mode 100644
+-index 0000000..d01f779
+---- /dev/null
+-+++ b/emmet-laboratory/index.html
+-@@ -0,0 +1,11 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+-new file mode 100644
+-index 0000000..84f0995
+---- /dev/null
+-+++ b/emmet-laboratory/portfolio.html
+-@@ -0,0 +1,37 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    <h1>WIL HARVEY B. CELESTINO</h1>
+-+    <h2>I am currently enrolled in Web technologies in the Universtity of the Cordilleras.</h2>
+-+    <nav>
+-+        <ul>
+-+            <li><a href="Home">Home</a></li>
+-+            <li><a href="About">About</a></li>
+-+            <li><a href="Skills">Skills</a></li>
+-+            <li><a href="Projects">Projects</a></li>
+-+            <li><a href="Contact">Contact</a></li>
+-+        </ul>
+-+    </nav>
+-+    <section>About
+-+        <p>Hello! My name is Wil Harvey B Celestino, 19 years old, currently enrolled in the University of the Cordilleras.</p>
+-+        <img src="images.profile.jpg" alt="Profile photo">
+-+    </section>
+-+    <section>Projects
+-+        <h1>Portfolio</h1>
+-+        <p>A compilation of html codes in CIT14</p>
+-+        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
+-+    </section>
+-+    <section>Contact
+-+        <h3>Wil Harvey B Celestino</h3>
+-+        <h3>altakicelestino@gmail.com</h3>
+-+        <h3>Yes U Can!</h3>
+-+        <div><input type="submit" value="">Submit button</div>
+-+    </section>
+-+    <footer>© 2026 - Celestino, Wil Harvey B.</footer>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-
+-commit de83b0a5211540ef4511502fa896155751a3862e
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-09-26 12:31:51 +0800
+-Commit:     GitHub <noreply@github.com>
+-CommitDate: 2026-09-26 12:31:51 +0800
+-
+-    Add files via upload
+-
+-diff --git a/formatting.html b/formatting.html
+-new file mode 100644
+-index 0000000..4b4f171
+---- /dev/null
+-+++ b/formatting.html
+-@@ -0,0 +1,90 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Format</title>
+-+</head>
+-+<style>
+-+    .center {
+-+        text-align: center;
+-+    }
+-+    .indent{
+-+        text-indent: 50px;
+-+    }
+-+</style>
+-+<body>
+-+    <h1 class="center">Formatting HTML</h1>
+-+    <p class="center">
+-+        This page is to <mark>demonstrate how to format texts using html tags</mark> via practical application. 
+-+    </p>
+-+    <h2>DOCTYPE</h2>
+-+    <p class="indent">
+-+        <i>!DOCTYPE</i> declares the document type of the file.
+-+    </p>
+-+    <h2>HTML</h2>
+-+    <p class="indent">
+-+        <strong>HTML</strong><small>&lt;HTML&gt;</small> stands for <em>HyperText Markup Language</em> and wraps the content of the web page.       
+-+    </p>
+-+    <h2>HEAD</h2>
+-+    <p class="indent">
+-+        <strong>HEAD</strong><small>&lt;head&gt;</small> holds metadata like the <small>title</small> tag.
+-+    </p>
+-+    <h2>META</h2>
+-+    <p class="indent">
+-+        <strong>META</strong><small>&lt;meta&gt;</small> stores metadata about the <b>HTML</b> document.
+-+    </p>
+-+    <h2>TITLE</h2>
+-+    <p class="indent">
+-+        <strong>TITLE</strong><small>&lt;title&gt;</small> defines the title of the webpage.
+-+    </p>
+-+    <h2>BODY</h2>
+-+    <p class="indent">
+-+        <strong>BODY</strong><small>&lt;title&gt;</small> defines the main content of the <b>HTML</b> page.
+-+    </p>
+-+    <h2>BOLD</h2>
+-+    <p class="indent">
+-+        <strong>BOLD</strong><small>&lt;b&gt;</small> makes the text <b>bold.</b>
+-+    </p>
+-+    <h2>STRONG</h2>
+-+    <p class="indent">
+-+        <strong>STRONG</strong><small>&lt;strong&gt;</small> makes the text <strong>bold</strong> and tells the screen readers the text is important.
+-+    </p>
+-+    <h2>ITALIC</h2>
+-+    <p class="indent">
+-+        <strong>ITALIC</strong><small>&lt;i&gt;</small> makes the text <i>italic.</i>
+-+    </p>
+-+    <h2>EMPHASIS</h2>
+-+    <p class="indent">
+-+        <strong>EMPHASIS</strong><small>&lt;em&gt;</small> makes the text <em>italic</em> and adds emphasis.
+-+    </p>
+-+    <h2>UNDERLINE</h2>
+-+    <p class="indent">
+-+        <strong>UNDERLINE</strong><small>&lt;u&gt;</small> <u>underlines</u> the text.
+-+    </p>
+-+    <h2>SMALL</h2>
+-+    <p class="indent">
+-+        <strong>SMALL</strong><small>&lt;small&gt;</small> makes the text <small>smaller</small> than the surrounding text.
+-+    </p>
+-+    <h2>DELETE</h2>
+-+    <p class="indent">
+-+        <strong>DELETE</strong><small>&lt;del&gt;</small> puts a <del>strikethrough</del> line over the text to show it was deleted.
+-+    </p>
+-+    <h2>INSERT</h2>
+-+    <p class="indent">
+-+        <strong>INSERT</strong><small>&lt;ins&gt;</small> Underlines text to show it was <ins>inderted/added</ins> to the page.
+-+    </p>
+-+    <h2>SUBSCRIPT</h2>
+-+    <p class="indent">
+-+        <strong>SUBSCRIPT</strong><small>&lt;sub&gt;</small> Lowers the text to create a <sub>subscript</sub>
+-+    </p>
+-+    <h2>SUPERSCRIPT</h2>
+-+    <p class="indent">
+-+        <strong>SUPERSCRIPT</strong><small>&lt;sup&gt;</small> Raises the text to create a <sup>superscript.</sup>
+-+    </p>
+-+</body>
+-+<hr>
+-+    <h2 class="center">CHALLENGE: Mathematical Equations</h2>
+-+    <p>H<sub>2</sub>O</p>
+-+    <p>E = mc<sup>2</sup></p>
+-+</html>
+-\ No newline at end of file
+-
+-commit 3e70e0aa31c80105ac3fff744f6302c534117196
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-09-26 12:30:58 +0800
+-Commit:     GitHub <noreply@github.com>
+-CommitDate: 2026-09-26 12:30:58 +0800
+-
+-    Add files via upload
+-
+-diff --git a/about.html b/about.html
+-new file mode 100644
+-index 0000000..59d753d
+---- /dev/null
+-+++ b/about.html
+-@@ -0,0 +1,11 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/contact.html b/contact.html
+-new file mode 100644
+-index 0000000..59d753d
+---- /dev/null
+-+++ b/contact.html
+-@@ -0,0 +1,11 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<body>
+-+    
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/schedule.html b/schedule.html
+-new file mode 100644
+-index 0000000..a445683
+---- /dev/null
+-+++ b/schedule.html
+-@@ -0,0 +1,100 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<style>
+-+    table{
+-+        border-collapse: collapse;
+-+        width: 100%;
+-+    }
+-+    th, td{
+-+        border: 1px solid black;
+-+        text-align: center;
+-+    }
+-+</style>
+-+<body>
+-+    <table>
+-+        <tr>
+-+            <th>Day</th>
+-+            <th>Time</th>
+-+            <th>Subjects</th>
+-+            <th>Room</th>
+-+            <th>Instructor</th>
+-+        </tr>
+-+        <tr>
+-+            <td rowspan="7">Monday</td>
+-+            <td>7:30 AM-8:50 AM</td>
+-+            <td>Accounting Essemtials</td>
+-+            <td>U805</td>
+-+            <td>Luis Meing</td>
+-+        </tr>
+-+        <tr>
+-+            <td>8:50 AM-10:10 AM</td>
+-+            <td>Regression Analysis</td>
+-+            <td>U805</td>
+-+            <td>Marie Grace Ortiz</td>
+-+        </tr>
+-+        <tr>
+-+            <td>10:10 AM-11:30AM</td>
+-+            <td>PathFit 4</td>
+-+            <td>GYM</td>
+-+            <td>Garickson Palao-ay</td>
+-+        </tr>
+-+        <tr>
+-+            <td>11:30 AM-12:50 PM</td>
+-+            <td>Web Technologies (LAB)</td>
+-+            <td>M301</td>
+-+            <td>Leonard Prim Fracis Reyes</td>
+-+        </tr>
+-+        <tr>
+-+            <td>12:50 PM-2:10 PM</td>
+-+            <td>Web Technologies (LAB)</td>
+-+            <td>U805</td>
+-+            <td>Leonard Prim Fracis Reyes</td>
+-+        </tr>
+-+        <tr>
+-+            <td>3:30 PM-4:50 PM</td>
+-+            <td>Information Management (Lecture)</td>
+-+            <td>G403</td>
+-+            <td>Anna Rhodora Quitaleg</td>
+-+        </tr>
+-+        <tr>
+-+            <td>4:50 PM-6:10 PM</td>
+-+            <td>Information Management (LAB)</td>
+-+            <td>M305</td>
+-+            <td>Jessie Martirez</td>
+-+        </tr>
+-+        <tr>
+-+            <td>Tuesday</td>
+-+            <td>7:30 AM-8:50 AM</td>
+-+            <td>Accounting Essemtials</td>
+-+            <td>U805</td>
+-+            <td>Luis Meing</td>
+-+        </tr>
+-+        <tr>
+-+            <td>Wednesday</td>
+-+            <td>7:30 AM-8:50 AM</td>
+-+            <td>Accounting Essemtials</td>
+-+            <td>U805</td>
+-+            <td>Luis Meing</td>
+-+        </tr>
+-+        <tr>
+-+            <td>Thursday</td>
+-+            <td>7:30 AM-8:50 AM</td>
+-+            <td>Accounting Essemtials</td>
+-+            <td>U805</td>
+-+            <td>Luis Meing</td>
+-+        </tr>
+-+        <tr>
+-+            <td>Friday</td>
+-+            <td>7:30 AM-8:50 AM</td>
+-+            <td>Accounting Essemtials</td>
+-+            <td>U805</td>
+-+            <td>Luis Meing</td>
+-+        </tr>
+-+    </table>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-
+-commit b051c43abbda9884d626daf3394db9f82910c0c4
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-09-26 11:44:16 +0800
+-Commit:     GitHub <noreply@github.com>
+-CommitDate: 2026-09-26 11:44:16 +0800
+-
+-    Add files via upload
+-
+-diff --git a/index.html b/index.html
+-new file mode 100644
+-index 0000000..e69de29
+-diff --git a/links.html b/links.html
+-new file mode 100644
+-index 0000000..7661435
+---- /dev/null
+-+++ b/links.html
+-@@ -0,0 +1,29 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<style>
+-+    .align{
+-+        text-align: right;
+-+    }
+-+    li{
+-+        list-style-type: none;
+-+    }
+-+</style>
+-+<body>
+-+    <h1>Links and Navigation</h1>
+-+    <a href="index.html">HOME | </a>
+-+    <a href="about.html">ABOUT | </a>
+-+    <a href="contact.html">CONTACT</a>
+-+    <hr>
+-+    <ul>
+-+        <li><a href="hhtps://google.com">Google</a></li>
+-+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+-+        <li><a href="https://github.com/altakicelestino-sys/webtech/tree/main?search=1">Github</a></li>
+-+        <li><a href="https://mystudentportal.uc-bcf.edu.ph/PARENTS_STUDENTS/parents_student_index.htm">University</a></li>
+-+    </ul>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/lists.html b/lists.html
+-new file mode 100644
+-index 0000000..40ac792
+---- /dev/null
+-+++ b/lists.html
+-@@ -0,0 +1,51 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<style>
+-+    ul{
+-+        list-style-type: none;
+-+    }
+-+    .align{
+-+        text-align: center;
+-+    }
+-+</style>
+-+<body>
+-+    <h1 class="align">Type of Lists</h1>
+-+    <hr>
+-+    <h2>A. Ordered List</h2>
+-+    <ol>
+-+        Top 5 Programming Languages
+-+        <ul>
+-+            <li>JavaScript</li>
+-+            <li>Python</li>
+-+            <li>Java</li>
+-+            <li>PHP</li>
+-+            <li>C#</li>
+-+        </ul>
+-+    </ol>
+-+    <h2>B. Nested Lists</h2>
+-+    <ul>
+-+        Computer Science
+-+        <ul>
+-+            Programming
+-+            <ul>
+-+                <li>Java</li>
+-+                <li>Python</li>
+-+                <li>PHP</li>
+-+            </ul>
+-+        </ul>
+-+        <ul>
+-+            Web Development     
+-+            <ul>
+-+                <li>HTML</li>
+-+                <li>CSS</li>
+-+                <li>JavaScript</li>
+-+            </ul>
+-+        </ul>
+-+    </ul>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-
+-commit c29a0930d73ffb03c980bbb8ec5ecbf5cb6247d7
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-09-22 12:38:34 +0800
+-Commit:     GitHub <noreply@github.com>
+-CommitDate: 2026-09-22 12:38:34 +0800
+-
+-    Add files via upload
+-
+-diff --git a/images.html b/images.html
+-new file mode 100644
+-index 0000000..de4296e
+---- /dev/null
+-+++ b/images.html
+-@@ -0,0 +1,25 @@
+-+<!DOCTYPE html>
+-+<html lang="en">
+-+<head>
+-+    <meta charset="UTF-8">
+-+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-+    <title>Document</title>
+-+</head>
+-+<style>
+-+    img{
+-+        display: block;
+-+        margin-left: auto;
+-+        margin-right: auto;
+-+    }
+-+    .align{
+-+        text-align: center;
+-+    }
+-+</style>
+-+<body>
+-+    <h1 class="align">My profile</h1>
+-+    <hr>
+-+    <img src="profile.jfif" alt="Profile image" width="200" height="200" onclick="window.location.href='https://www.google.com';">
+-+    <h3 class="align">WIL HARVEY B. CELESTINO</h3>
+-+    <p class="align">Hello! I'm Wil Harvey B. Celestino, and you are currentlyt in my profile page. I am a second year college student in the University of the Cordilleras and currently majoring in Web Development. I am an ambivert and can do anything so long as a have company. I am more of a nerd when it comes to hobbies. I like games, novels, and mangas. That's all for me and nice to meet you!</p>
+-+</body>
+-+</html>
+-\ No newline at end of file
+-diff --git a/profile.jfif b/profile.jfif
+-new file mode 100644
+-index 0000000..d4a4ffe
+-Binary files /dev/null and b/profile.jfif differ
+-
+-commit da12a3f70d4ad309c03832808647cf6a5e9b03a2
+-Author:     altakicelestino-sys <altakicelestino@gmail.com>
+-AuthorDate: 2026-09-15 11:40:27 +0800
+-Commit:     GitHub <noreply@github.com>
+-CommitDate: 2026-09-15 11:40:27 +0800
+-
+-    Initial commit
+-
+-diff --git a/README.md b/README.md
+-new file mode 100644
+-index 0000000..99f5971
+---- /dev/null
+-+++ b/README.md
+-@@ -0,0 +1 @@
+-+# webtech
+-\ No newline at end of file
+diff --git a/MY-PORTFOLIO/about.html b/MY-PORTFOLIO/about.html
+index 59d753d..1d8e048 100644
+--- a/MY-PORTFOLIO/about.html
++++ b/MY-PORTFOLIO/about.html
+@@ -6,6 +6,6 @@
+     <title>Document</title>
+ </head>
+ <body>
+-    
++    h1{Portfolio}>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/MY-PORTFOLIO/index.html b/MY-PORTFOLIO/index.html
+index e69de29..d01f779 100644
+--- a/MY-PORTFOLIO/index.html
++++ b/MY-PORTFOLIO/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+
+commit 7a1ccb02798fd12ab05ac2cf55a0516243ac3efe
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-11-07 04:33:41 +0000
+Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+CommitDate: 2026-11-07 04:33:41 +0000
+
+    portfolio
+
+diff --git a/Celestino.txt b/Celestino.txt
+new file mode 100644
+index 0000000..73abcee
+--- /dev/null
++++ b/Celestino.txt
+@@ -0,0 +1,787 @@
++commit 183dbfb5069e7894d96bbbe9209e5236107f0287
++Merge: 75fa996 de83b0a
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-11-07 04:23:26 +0000
++Commit:     altakicelestino-sys <altakicelestino@gmail.com>
++CommitDate: 2026-11-07 04:23:26 +0000
++
++    Merge branch 'main' of https://github.com/altakicelestino-sys/webtech
++
++commit 75fa996eedaa4a8caba5348e2281180dcb0d8ef9
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-11-07 04:20:02 +0000
++Commit:     altakicelestino-sys <altakicelestino@gmail.com>
++CommitDate: 2026-11-07 04:20:02 +0000
++
++    Completed Emmet Laboratory Activity
++
++diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
++index 84f0995..f6f0393 100644
++--- a/emmet-laboratory/portfolio.html
+++++ b/emmet-laboratory/portfolio.html
++@@ -24,7 +24,7 @@
++     <section>Projects
++         <h1>Portfolio</h1>
++         <p>A compilation of html codes in CIT14</p>
++-        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
+++        <a href=""></a>
++     </section>
++     <section>Contact
++         <h3>Wil Harvey B Celestino</h3>
++
++commit 69b655b3888b1878acf0e86bb6efb0a01f2f2ba1
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-11-07 04:17:45 +0000
++Commit:     altakicelestino-sys <altakicelestino@gmail.com>
++CommitDate: 2026-11-07 04:17:45 +0000
++
++    Completed Emmet Laboratory Activity
++
++diff --git a/README.md b/README.md
++deleted file mode 100644
++index 99f5971..0000000
++--- a/README.md
+++++ /dev/null
++@@ -1 +0,0 @@
++-# webtech
++\ No newline at end of file
++diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
++new file mode 100644
++index 0000000..d9729fe
++--- /dev/null
+++++ b/emmet-laboratory/01-basic.html
++@@ -0,0 +1,20 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <h1></h1> 
+++    <h2></h2>
+++    <h2></h2>
+++    <p></p>
+++    <p></p>
+++    <p></p>
+++    <div></div>
+++    <nav></nav>
+++    <main></main>
+++    <footer></footer>   
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
++new file mode 100644
++index 0000000..2b6722e
++--- /dev/null
+++++ b/emmet-laboratory/02-classes-ids.html
++@@ -0,0 +1,59 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <p class="introduction"></p>
+++    <div id="container"></div>
+++    <div class="card featured"></div>
+++    <section id="about" class="content-section"></section>
+++    <h1 class="site-header"></h1>
+++    <nav id="main-nav"></nav>
+++    <main class="content"></main>
+++    <section class="about"></section>
+++    <footer class="site-footer"></footer>
+++    <ul>
+++        <li></li>
+++    </ul>
+++    <nav>
+++        <ul>
+++            <li></li>
+++        </ul>
+++    </nav>
+++    <nav>
+++        <ul>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++            <li></li>
+++        </ul>
+++    </nav>
+++    <h1></h1>
+++    <p></p>
+++    <h1></h1>
+++    <h2></h2>
+++    <p></p>
+++    <p></p>
+++    <li></li>
+++    <li></li>
+++    <li></li>
+++    <li></li>
+++    <li></li>
+++    <div></div>
+++    <div></div>
+++    <div></div>
+++    <p></p>
+++    <p></p>
+++    <p></p>
+++    <p></p>
+++    <p></p>
+++    <h1>Web Technologies</h1>
+++    <p>Welcome to my webpage.</p>
+++    <h1>My Web Development Journey</h1>
+++    <p>I am learning HTML,CSS, JavaScript, and web development</p>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
++new file mode 100644
++index 0000000..2be25aa
++--- /dev/null
+++++ b/emmet-laboratory/03-navigation.html
++@@ -0,0 +1,63 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <ul>
+++        <li class="item1"></li>
+++        <li class="item2"></li>
+++        <li class="item3"></li>
+++        <li class="item4"></li>
+++        <li class="item5"></li>
+++    </ul>
+++    <ul>
+++        <li>menu 1</li>
+++        <li>menu 2</li>
+++        <li>menu 3</li>
+++        <li>menu 4</li>
+++        <li>menu 5</li>
+++    </ul>
+++    <nav>
+++        <ul>
+++            <li><a href="">Home</a></li>
+++            <li><a href="">About</a></li>
+++            <li><a href="">Services</a></li>
+++            <li><a href="">Projects</a></li>
+++            <li><a href="">Contact</a></li>
+++        </ul>
+++    </nav>
+++    <nav>
+++        <ul>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++        </ul>
+++    </nav>
+++    <nav>
+++        <ul>
+++            <li><a href="">menu</a></li>
+++            <li><a href="">menu</a></li>
+++            <li><a href="">menu</a></li>
+++            <li><a href="">menu</a></li>
+++            <li><a href="">menu</a></li>
+++        </ul>
+++    </nav>
+++    <nav>
+++        <ul>
+++            <li><a href="">Home</a></li>
+++            <li><a href="">About</a></li>
+++            <li><a href="">Portfolio</a></li>
+++            <li><a href="">Services</a></li>
+++            <li><a href="">Contact</a></li>
+++        </ul>
+++    </nav>
+++    <input type="text">
+++    <input type="text" placeholder="Enter your name">
+++    <input type="email" placeholder="Enter your email"> 
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
++new file mode 100644
++index 0000000..d6f83e3
++--- /dev/null
+++++ b/emmet-laboratory/04-form.html
++@@ -0,0 +1,25 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <input type="text" name="" id="">
+++    <input type="email" name="" id="">
+++    <input type="password" name="" id="">
+++    <input type="checkbox" name="" id="">
+++    <input type="radio" name="" id="">
+++    <input type="submit" value="">
+++    <div><input type="text" name="Student ID: " placeholder="Enter your ID number"></div>
+++    <div><input type="text" name="Full Name: " placeholder="Enter your Full Name"></div>
+++    <div><input type="email" name="Email: " placeholder="Enter your email></div>
+++    <div><input type= "password" name="Password" placeholder=""></div>
+++    <div><input type="text" name="Gender" placeholder=""></div>
+++    <div><input type="text" name="Course" placeholder=""></div>
+++    <div><input type="text" name="Hobbies" placeholder=""></div>
+++    <div><input type="text" name="Address" placeholder=""></div>
+++    <div><input type="submit" name="Submit Button" placeholder=""></div>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
++new file mode 100644
++index 0000000..a943885
++--- /dev/null
+++++ b/emmet-laboratory/05-semantic.html
++@@ -0,0 +1,50 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <header></header>
+++    <nav></nav>
+++    <main></main>
+++    <section></section>
+++    <article></article>
+++    <aside></aside>
+++    <footer></footer>
+++    <header>
+++        <h1></h1>
+++    </header>
+++    <nav>
+++        <ul>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++            <li><a href=""></a></li>
+++        </ul>
+++    </nav>
+++    <main>
+++        <section>
+++            <article></article>
+++        </section>
+++    </main>
+++    <footer>
+++        <p></p>
+++    </footer>
+++    <div class="container">
+++        <header>
+++            <h1>My Portfolio</h1>
+++            <p>Web Developer</p>
+++            <nav>
+++                <ul>
+++                    <li><a href="">Menu 1</a></li>
+++                    <li><a href="">Menu 2</a></li>
+++                    <li><a href="">Menu 3</a></li>
+++                    <li><a href="">Menu 4</a></li>
+++                </ul>
+++            </nav>
+++        </header>
+++    </div>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
++new file mode 100644
++index 0000000..d01f779
++--- /dev/null
+++++ b/emmet-laboratory/index.html
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
++new file mode 100644
++index 0000000..84f0995
++--- /dev/null
+++++ b/emmet-laboratory/portfolio.html
++@@ -0,0 +1,37 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    <h1>WIL HARVEY B. CELESTINO</h1>
+++    <h2>I am currently enrolled in Web technologies in the Universtity of the Cordilleras.</h2>
+++    <nav>
+++        <ul>
+++            <li><a href="Home">Home</a></li>
+++            <li><a href="About">About</a></li>
+++            <li><a href="Skills">Skills</a></li>
+++            <li><a href="Projects">Projects</a></li>
+++            <li><a href="Contact">Contact</a></li>
+++        </ul>
+++    </nav>
+++    <section>About
+++        <p>Hello! My name is Wil Harvey B Celestino, 19 years old, currently enrolled in the University of the Cordilleras.</p>
+++        <img src="images.profile.jpg" alt="Profile photo">
+++    </section>
+++    <section>Projects
+++        <h1>Portfolio</h1>
+++        <p>A compilation of html codes in CIT14</p>
+++        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
+++    </section>
+++    <section>Contact
+++        <h3>Wil Harvey B Celestino</h3>
+++        <h3>altakicelestino@gmail.com</h3>
+++        <h3>Yes U Can!</h3>
+++        <div><input type="submit" value="">Submit button</div>
+++    </section>
+++    <footer>© 2026 - Celestino, Wil Harvey B.</footer>
+++</body>
+++</html>
++\ No newline at end of file
++
++commit de83b0a5211540ef4511502fa896155751a3862e
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-09-26 12:31:51 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:31:51 +0800
++
++    Add files via upload
++
++diff --git a/formatting.html b/formatting.html
++new file mode 100644
++index 0000000..4b4f171
++--- /dev/null
+++++ b/formatting.html
++@@ -0,0 +1,90 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Format</title>
+++</head>
+++<style>
+++    .center {
+++        text-align: center;
+++    }
+++    .indent{
+++        text-indent: 50px;
+++    }
+++</style>
+++<body>
+++    <h1 class="center">Formatting HTML</h1>
+++    <p class="center">
+++        This page is to <mark>demonstrate how to format texts using html tags</mark> via practical application. 
+++    </p>
+++    <h2>DOCTYPE</h2>
+++    <p class="indent">
+++        <i>!DOCTYPE</i> declares the document type of the file.
+++    </p>
+++    <h2>HTML</h2>
+++    <p class="indent">
+++        <strong>HTML</strong><small>&lt;HTML&gt;</small> stands for <em>HyperText Markup Language</em> and wraps the content of the web page.       
+++    </p>
+++    <h2>HEAD</h2>
+++    <p class="indent">
+++        <strong>HEAD</strong><small>&lt;head&gt;</small> holds metadata like the <small>title</small> tag.
+++    </p>
+++    <h2>META</h2>
+++    <p class="indent">
+++        <strong>META</strong><small>&lt;meta&gt;</small> stores metadata about the <b>HTML</b> document.
+++    </p>
+++    <h2>TITLE</h2>
+++    <p class="indent">
+++        <strong>TITLE</strong><small>&lt;title&gt;</small> defines the title of the webpage.
+++    </p>
+++    <h2>BODY</h2>
+++    <p class="indent">
+++        <strong>BODY</strong><small>&lt;title&gt;</small> defines the main content of the <b>HTML</b> page.
+++    </p>
+++    <h2>BOLD</h2>
+++    <p class="indent">
+++        <strong>BOLD</strong><small>&lt;b&gt;</small> makes the text <b>bold.</b>
+++    </p>
+++    <h2>STRONG</h2>
+++    <p class="indent">
+++        <strong>STRONG</strong><small>&lt;strong&gt;</small> makes the text <strong>bold</strong> and tells the screen readers the text is important.
+++    </p>
+++    <h2>ITALIC</h2>
+++    <p class="indent">
+++        <strong>ITALIC</strong><small>&lt;i&gt;</small> makes the text <i>italic.</i>
+++    </p>
+++    <h2>EMPHASIS</h2>
+++    <p class="indent">
+++        <strong>EMPHASIS</strong><small>&lt;em&gt;</small> makes the text <em>italic</em> and adds emphasis.
+++    </p>
+++    <h2>UNDERLINE</h2>
+++    <p class="indent">
+++        <strong>UNDERLINE</strong><small>&lt;u&gt;</small> <u>underlines</u> the text.
+++    </p>
+++    <h2>SMALL</h2>
+++    <p class="indent">
+++        <strong>SMALL</strong><small>&lt;small&gt;</small> makes the text <small>smaller</small> than the surrounding text.
+++    </p>
+++    <h2>DELETE</h2>
+++    <p class="indent">
+++        <strong>DELETE</strong><small>&lt;del&gt;</small> puts a <del>strikethrough</del> line over the text to show it was deleted.
+++    </p>
+++    <h2>INSERT</h2>
+++    <p class="indent">
+++        <strong>INSERT</strong><small>&lt;ins&gt;</small> Underlines text to show it was <ins>inderted/added</ins> to the page.
+++    </p>
+++    <h2>SUBSCRIPT</h2>
+++    <p class="indent">
+++        <strong>SUBSCRIPT</strong><small>&lt;sub&gt;</small> Lowers the text to create a <sub>subscript</sub>
+++    </p>
+++    <h2>SUPERSCRIPT</h2>
+++    <p class="indent">
+++        <strong>SUPERSCRIPT</strong><small>&lt;sup&gt;</small> Raises the text to create a <sup>superscript.</sup>
+++    </p>
+++</body>
+++<hr>
+++    <h2 class="center">CHALLENGE: Mathematical Equations</h2>
+++    <p>H<sub>2</sub>O</p>
+++    <p>E = mc<sup>2</sup></p>
+++</html>
++\ No newline at end of file
++
++commit 3e70e0aa31c80105ac3fff744f6302c534117196
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-09-26 12:30:58 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 12:30:58 +0800
++
++    Add files via upload
++
++diff --git a/about.html b/about.html
++new file mode 100644
++index 0000000..59d753d
++--- /dev/null
+++++ b/about.html
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/contact.html b/contact.html
++new file mode 100644
++index 0000000..59d753d
++--- /dev/null
+++++ b/contact.html
++@@ -0,0 +1,11 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<body>
+++    
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/schedule.html b/schedule.html
++new file mode 100644
++index 0000000..a445683
++--- /dev/null
+++++ b/schedule.html
++@@ -0,0 +1,100 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<style>
+++    table{
+++        border-collapse: collapse;
+++        width: 100%;
+++    }
+++    th, td{
+++        border: 1px solid black;
+++        text-align: center;
+++    }
+++</style>
+++<body>
+++    <table>
+++        <tr>
+++            <th>Day</th>
+++            <th>Time</th>
+++            <th>Subjects</th>
+++            <th>Room</th>
+++            <th>Instructor</th>
+++        </tr>
+++        <tr>
+++            <td rowspan="7">Monday</td>
+++            <td>7:30 AM-8:50 AM</td>
+++            <td>Accounting Essemtials</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++        <tr>
+++            <td>8:50 AM-10:10 AM</td>
+++            <td>Regression Analysis</td>
+++            <td>U805</td>
+++            <td>Marie Grace Ortiz</td>
+++        </tr>
+++        <tr>
+++            <td>10:10 AM-11:30AM</td>
+++            <td>PathFit 4</td>
+++            <td>GYM</td>
+++            <td>Garickson Palao-ay</td>
+++        </tr>
+++        <tr>
+++            <td>11:30 AM-12:50 PM</td>
+++            <td>Web Technologies (LAB)</td>
+++            <td>M301</td>
+++            <td>Leonard Prim Fracis Reyes</td>
+++        </tr>
+++        <tr>
+++            <td>12:50 PM-2:10 PM</td>
+++            <td>Web Technologies (LAB)</td>
+++            <td>U805</td>
+++            <td>Leonard Prim Fracis Reyes</td>
+++        </tr>
+++        <tr>
+++            <td>3:30 PM-4:50 PM</td>
+++            <td>Information Management (Lecture)</td>
+++            <td>G403</td>
+++            <td>Anna Rhodora Quitaleg</td>
+++        </tr>
+++        <tr>
+++            <td>4:50 PM-6:10 PM</td>
+++            <td>Information Management (LAB)</td>
+++            <td>M305</td>
+++            <td>Jessie Martirez</td>
+++        </tr>
+++        <tr>
+++            <td>Tuesday</td>
+++            <td>7:30 AM-8:50 AM</td>
+++            <td>Accounting Essemtials</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++        <tr>
+++            <td>Wednesday</td>
+++            <td>7:30 AM-8:50 AM</td>
+++            <td>Accounting Essemtials</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++        <tr>
+++            <td>Thursday</td>
+++            <td>7:30 AM-8:50 AM</td>
+++            <td>Accounting Essemtials</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++        <tr>
+++            <td>Friday</td>
+++            <td>7:30 AM-8:50 AM</td>
+++            <td>Accounting Essemtials</td>
+++            <td>U805</td>
+++            <td>Luis Meing</td>
+++        </tr>
+++    </table>
+++</body>
+++</html>
++\ No newline at end of file
++
++commit b051c43abbda9884d626daf3394db9f82910c0c4
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-09-26 11:44:16 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-26 11:44:16 +0800
++
++    Add files via upload
++
++diff --git a/index.html b/index.html
++new file mode 100644
++index 0000000..e69de29
++diff --git a/links.html b/links.html
++new file mode 100644
++index 0000000..7661435
++--- /dev/null
+++++ b/links.html
++@@ -0,0 +1,29 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<style>
+++    .align{
+++        text-align: right;
+++    }
+++    li{
+++        list-style-type: none;
+++    }
+++</style>
+++<body>
+++    <h1>Links and Navigation</h1>
+++    <a href="index.html">HOME | </a>
+++    <a href="about.html">ABOUT | </a>
+++    <a href="contact.html">CONTACT</a>
+++    <hr>
+++    <ul>
+++        <li><a href="hhtps://google.com">Google</a></li>
+++        <li><a href="https://www.youtube.com/">Youtube</a></li>
+++        <li><a href="https://github.com/altakicelestino-sys/webtech/tree/main?search=1">Github</a></li>
+++        <li><a href="https://mystudentportal.uc-bcf.edu.ph/PARENTS_STUDENTS/parents_student_index.htm">University</a></li>
+++    </ul>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/lists.html b/lists.html
++new file mode 100644
++index 0000000..40ac792
++--- /dev/null
+++++ b/lists.html
++@@ -0,0 +1,51 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<style>
+++    ul{
+++        list-style-type: none;
+++    }
+++    .align{
+++        text-align: center;
+++    }
+++</style>
+++<body>
+++    <h1 class="align">Type of Lists</h1>
+++    <hr>
+++    <h2>A. Ordered List</h2>
+++    <ol>
+++        Top 5 Programming Languages
+++        <ul>
+++            <li>JavaScript</li>
+++            <li>Python</li>
+++            <li>Java</li>
+++            <li>PHP</li>
+++            <li>C#</li>
+++        </ul>
+++    </ol>
+++    <h2>B. Nested Lists</h2>
+++    <ul>
+++        Computer Science
+++        <ul>
+++            Programming
+++            <ul>
+++                <li>Java</li>
+++                <li>Python</li>
+++                <li>PHP</li>
+++            </ul>
+++        </ul>
+++        <ul>
+++            Web Development     
+++            <ul>
+++                <li>HTML</li>
+++                <li>CSS</li>
+++                <li>JavaScript</li>
+++            </ul>
+++        </ul>
+++    </ul>
+++</body>
+++</html>
++\ No newline at end of file
++
++commit c29a0930d73ffb03c980bbb8ec5ecbf5cb6247d7
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-09-22 12:38:34 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-22 12:38:34 +0800
++
++    Add files via upload
++
++diff --git a/images.html b/images.html
++new file mode 100644
++index 0000000..de4296e
++--- /dev/null
+++++ b/images.html
++@@ -0,0 +1,25 @@
+++<!DOCTYPE html>
+++<html lang="en">
+++<head>
+++    <meta charset="UTF-8">
+++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+++    <title>Document</title>
+++</head>
+++<style>
+++    img{
+++        display: block;
+++        margin-left: auto;
+++        margin-right: auto;
+++    }
+++    .align{
+++        text-align: center;
+++    }
+++</style>
+++<body>
+++    <h1 class="align">My profile</h1>
+++    <hr>
+++    <img src="profile.jfif" alt="Profile image" width="200" height="200" onclick="window.location.href='https://www.google.com';">
+++    <h3 class="align">WIL HARVEY B. CELESTINO</h3>
+++    <p class="align">Hello! I'm Wil Harvey B. Celestino, and you are currentlyt in my profile page. I am a second year college student in the University of the Cordilleras and currently majoring in Web Development. I am an ambivert and can do anything so long as a have company. I am more of a nerd when it comes to hobbies. I like games, novels, and mangas. That's all for me and nice to meet you!</p>
+++</body>
+++</html>
++\ No newline at end of file
++diff --git a/profile.jfif b/profile.jfif
++new file mode 100644
++index 0000000..d4a4ffe
++Binary files /dev/null and b/profile.jfif differ
++
++commit da12a3f70d4ad309c03832808647cf6a5e9b03a2
++Author:     altakicelestino-sys <altakicelestino@gmail.com>
++AuthorDate: 2026-09-15 11:40:27 +0800
++Commit:     GitHub <noreply@github.com>
++CommitDate: 2026-09-15 11:40:27 +0800
++
++    Initial commit
++
++diff --git a/README.md b/README.md
++new file mode 100644
++index 0000000..99f5971
++--- /dev/null
+++++ b/README.md
++@@ -0,0 +1 @@
+++# webtech
++\ No newline at end of file
+diff --git a/about.html b/MY-PORTFOLIO/about.html
+similarity index 100%
+rename from about.html
+rename to MY-PORTFOLIO/about.html
+diff --git a/contact.html b/MY-PORTFOLIO/contact.html
+similarity index 100%
+rename from contact.html
+rename to MY-PORTFOLIO/contact.html
+diff --git a/formatting.html b/MY-PORTFOLIO/formatting.html
+similarity index 100%
+rename from formatting.html
+rename to MY-PORTFOLIO/formatting.html
+diff --git a/images.html b/MY-PORTFOLIO/images.html
+similarity index 100%
+rename from images.html
+rename to MY-PORTFOLIO/images.html
+diff --git a/index.html b/MY-PORTFOLIO/index.html
+similarity index 100%
+rename from index.html
+rename to MY-PORTFOLIO/index.html
+diff --git a/links.html b/MY-PORTFOLIO/links.html
+similarity index 100%
+rename from links.html
+rename to MY-PORTFOLIO/links.html
+diff --git a/lists.html b/MY-PORTFOLIO/lists.html
+similarity index 100%
+rename from lists.html
+rename to MY-PORTFOLIO/lists.html
+diff --git a/profile.jfif b/MY-PORTFOLIO/profile.jfif
+similarity index 100%
+rename from profile.jfif
+rename to MY-PORTFOLIO/profile.jfif
+diff --git a/schedule.html b/MY-PORTFOLIO/schedule.html
+similarity index 100%
+rename from schedule.html
+rename to MY-PORTFOLIO/schedule.html
+
+commit 183dbfb5069e7894d96bbbe9209e5236107f0287
+Merge: 75fa996 de83b0a
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-11-07 04:23:26 +0000
+Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+CommitDate: 2026-11-07 04:23:26 +0000
+
+    Merge branch 'main' of https://github.com/altakicelestino-sys/webtech
+
+commit 75fa996eedaa4a8caba5348e2281180dcb0d8ef9
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-11-07 04:20:02 +0000
+Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+CommitDate: 2026-11-07 04:20:02 +0000
+
+    Completed Emmet Laboratory Activity
+
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 84f0995..f6f0393 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -24,7 +24,7 @@
+     <section>Projects
+         <h1>Portfolio</h1>
+         <p>A compilation of html codes in CIT14</p>
+-        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
++        <a href=""></a>
+     </section>
+     <section>Contact
+         <h3>Wil Harvey B Celestino</h3>
+
+commit 69b655b3888b1878acf0e86bb6efb0a01f2f2ba1
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-11-07 04:17:45 +0000
+Commit:     altakicelestino-sys <altakicelestino@gmail.com>
+CommitDate: 2026-11-07 04:17:45 +0000
+
+    Completed Emmet Laboratory Activity
+
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index 99f5971..0000000
+--- a/README.md
++++ /dev/null
+@@ -1 +0,0 @@
+-# webtech
+\ No newline at end of file
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..d9729fe
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,20 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1></h1> 
++    <h2></h2>
++    <h2></h2>
++    <p></p>
++    <p></p>
++    <p></p>
++    <div></div>
++    <nav></nav>
++    <main></main>
++    <footer></footer>   
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..2b6722e
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,59 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <p class="introduction"></p>
++    <div id="container"></div>
++    <div class="card featured"></div>
++    <section id="about" class="content-section"></section>
++    <h1 class="site-header"></h1>
++    <nav id="main-nav"></nav>
++    <main class="content"></main>
++    <section class="about"></section>
++    <footer class="site-footer"></footer>
++    <ul>
++        <li></li>
++    </ul>
++    <nav>
++        <ul>
++            <li></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++            <li></li>
++        </ul>
++    </nav>
++    <h1></h1>
++    <p></p>
++    <h1></h1>
++    <h2></h2>
++    <p></p>
++    <p></p>
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++    <li></li>
++    <div></div>
++    <div></div>
++    <div></div>
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++    <p></p>
++    <h1>Web Technologies</h1>
++    <p>Welcome to my webpage.</p>
++    <h1>My Web Development Journey</h1>
++    <p>I am learning HTML,CSS, JavaScript, and web development</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..2be25aa
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,63 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++    </ul>
++    <ul>
++        <li>menu 1</li>
++        <li>menu 2</li>
++        <li>menu 3</li>
++        <li>menu 4</li>
++        <li>menu 5</li>
++    </ul>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Projects</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li><a href="">menu</a></li>
++            <li><a href="">menu</a></li>
++            <li><a href="">menu</a></li>
++            <li><a href="">menu</a></li>
++            <li><a href="">menu</a></li>
++        </ul>
++    </nav>
++    <nav>
++        <ul>
++            <li><a href="">Home</a></li>
++            <li><a href="">About</a></li>
++            <li><a href="">Portfolio</a></li>
++            <li><a href="">Services</a></li>
++            <li><a href="">Contact</a></li>
++        </ul>
++    </nav>
++    <input type="text">
++    <input type="text" placeholder="Enter your name">
++    <input type="email" placeholder="Enter your email"> 
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..d6f83e3
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,25 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" name="" id="">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++    <div><input type="text" name="Student ID: " placeholder="Enter your ID number"></div>
++    <div><input type="text" name="Full Name: " placeholder="Enter your Full Name"></div>
++    <div><input type="email" name="Email: " placeholder="Enter your email></div>
++    <div><input type= "password" name="Password" placeholder=""></div>
++    <div><input type="text" name="Gender" placeholder=""></div>
++    <div><input type="text" name="Course" placeholder=""></div>
++    <div><input type="text" name="Hobbies" placeholder=""></div>
++    <div><input type="text" name="Address" placeholder=""></div>
++    <div><input type="submit" name="Submit Button" placeholder=""></div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..a943885
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,50 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <section></section>
++    <article></article>
++    <aside></aside>
++    <footer></footer>
++    <header>
++        <h1></h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++            <li><a href=""></a></li>
++        </ul>
++    </nav>
++    <main>
++        <section>
++            <article></article>
++        </section>
++    </main>
++    <footer>
++        <p></p>
++    </footer>
++    <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a></li>
++                    <li><a href="">Menu 2</a></li>
++                    <li><a href="">Menu 3</a></li>
++                    <li><a href="">Menu 4</a></li>
++                </ul>
++            </nav>
++        </header>
++    </div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..d01f779
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..84f0995
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1>WIL HARVEY B. CELESTINO</h1>
++    <h2>I am currently enrolled in Web technologies in the Universtity of the Cordilleras.</h2>
++    <nav>
++        <ul>
++            <li><a href="Home">Home</a></li>
++            <li><a href="About">About</a></li>
++            <li><a href="Skills">Skills</a></li>
++            <li><a href="Projects">Projects</a></li>
++            <li><a href="Contact">Contact</a></li>
++        </ul>
++    </nav>
++    <section>About
++        <p>Hello! My name is Wil Harvey B Celestino, 19 years old, currently enrolled in the University of the Cordilleras.</p>
++        <img src="images.profile.jpg" alt="Profile photo">
++    </section>
++    <section>Projects
++        <h1>Portfolio</h1>
++        <p>A compilation of html codes in CIT14</p>
++        <a href="https://animated-couscous-jjv77jqxx7692p4j6.github.dev/"></a>
++    </section>
++    <section>Contact
++        <h3>Wil Harvey B Celestino</h3>
++        <h3>altakicelestino@gmail.com</h3>
++        <h3>Yes U Can!</h3>
++        <div><input type="submit" value="">Submit button</div>
++    </section>
++    <footer>© 2026 - Celestino, Wil Harvey B.</footer>
++</body>
++</html>
+\ No newline at end of file
+
+commit de83b0a5211540ef4511502fa896155751a3862e
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-09-26 12:31:51 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-26 12:31:51 +0800
+
+    Add files via upload
+
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..4b4f171
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1,90 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Format</title>
++</head>
++<style>
++    .center {
++        text-align: center;
++    }
++    .indent{
++        text-indent: 50px;
++    }
++</style>
++<body>
++    <h1 class="center">Formatting HTML</h1>
++    <p class="center">
++        This page is to <mark>demonstrate how to format texts using html tags</mark> via practical application. 
++    </p>
++    <h2>DOCTYPE</h2>
++    <p class="indent">
++        <i>!DOCTYPE</i> declares the document type of the file.
++    </p>
++    <h2>HTML</h2>
++    <p class="indent">
++        <strong>HTML</strong><small>&lt;HTML&gt;</small> stands for <em>HyperText Markup Language</em> and wraps the content of the web page.       
++    </p>
++    <h2>HEAD</h2>
++    <p class="indent">
++        <strong>HEAD</strong><small>&lt;head&gt;</small> holds metadata like the <small>title</small> tag.
++    </p>
++    <h2>META</h2>
++    <p class="indent">
++        <strong>META</strong><small>&lt;meta&gt;</small> stores metadata about the <b>HTML</b> document.
++    </p>
++    <h2>TITLE</h2>
++    <p class="indent">
++        <strong>TITLE</strong><small>&lt;title&gt;</small> defines the title of the webpage.
++    </p>
++    <h2>BODY</h2>
++    <p class="indent">
++        <strong>BODY</strong><small>&lt;title&gt;</small> defines the main content of the <b>HTML</b> page.
++    </p>
++    <h2>BOLD</h2>
++    <p class="indent">
++        <strong>BOLD</strong><small>&lt;b&gt;</small> makes the text <b>bold.</b>
++    </p>
++    <h2>STRONG</h2>
++    <p class="indent">
++        <strong>STRONG</strong><small>&lt;strong&gt;</small> makes the text <strong>bold</strong> and tells the screen readers the text is important.
++    </p>
++    <h2>ITALIC</h2>
++    <p class="indent">
++        <strong>ITALIC</strong><small>&lt;i&gt;</small> makes the text <i>italic.</i>
++    </p>
++    <h2>EMPHASIS</h2>
++    <p class="indent">
++        <strong>EMPHASIS</strong><small>&lt;em&gt;</small> makes the text <em>italic</em> and adds emphasis.
++    </p>
++    <h2>UNDERLINE</h2>
++    <p class="indent">
++        <strong>UNDERLINE</strong><small>&lt;u&gt;</small> <u>underlines</u> the text.
++    </p>
++    <h2>SMALL</h2>
++    <p class="indent">
++        <strong>SMALL</strong><small>&lt;small&gt;</small> makes the text <small>smaller</small> than the surrounding text.
++    </p>
++    <h2>DELETE</h2>
++    <p class="indent">
++        <strong>DELETE</strong><small>&lt;del&gt;</small> puts a <del>strikethrough</del> line over the text to show it was deleted.
++    </p>
++    <h2>INSERT</h2>
++    <p class="indent">
++        <strong>INSERT</strong><small>&lt;ins&gt;</small> Underlines text to show it was <ins>inderted/added</ins> to the page.
++    </p>
++    <h2>SUBSCRIPT</h2>
++    <p class="indent">
++        <strong>SUBSCRIPT</strong><small>&lt;sub&gt;</small> Lowers the text to create a <sub>subscript</sub>
++    </p>
++    <h2>SUPERSCRIPT</h2>
++    <p class="indent">
++        <strong>SUPERSCRIPT</strong><small>&lt;sup&gt;</small> Raises the text to create a <sup>superscript.</sup>
++    </p>
++</body>
++<hr>
++    <h2 class="center">CHALLENGE: Mathematical Equations</h2>
++    <p>H<sub>2</sub>O</p>
++    <p>E = mc<sup>2</sup></p>
++</html>
+\ No newline at end of file
+
+commit 3e70e0aa31c80105ac3fff744f6302c534117196
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-09-26 12:30:58 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-26 12:30:58 +0800
+
+    Add files via upload
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..59d753d
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..59d753d
+--- /dev/null
++++ b/contact.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..a445683
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1,100 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<style>
++    table{
++        border-collapse: collapse;
++        width: 100%;
++    }
++    th, td{
++        border: 1px solid black;
++        text-align: center;
++    }
++</style>
++<body>
++    <table>
++        <tr>
++            <th>Day</th>
++            <th>Time</th>
++            <th>Subjects</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++        <tr>
++            <td rowspan="7">Monday</td>
++            <td>7:30 AM-8:50 AM</td>
++            <td>Accounting Essemtials</td>
++            <td>U805</td>
++            <td>Luis Meing</td>
++        </tr>
++        <tr>
++            <td>8:50 AM-10:10 AM</td>
++            <td>Regression Analysis</td>
++            <td>U805</td>
++            <td>Marie Grace Ortiz</td>
++        </tr>
++        <tr>
++            <td>10:10 AM-11:30AM</td>
++            <td>PathFit 4</td>
++            <td>GYM</td>
++            <td>Garickson Palao-ay</td>
++        </tr>
++        <tr>
++            <td>11:30 AM-12:50 PM</td>
++            <td>Web Technologies (LAB)</td>
++            <td>M301</td>
++            <td>Leonard Prim Fracis Reyes</td>
++        </tr>
++        <tr>
++            <td>12:50 PM-2:10 PM</td>
++            <td>Web Technologies (LAB)</td>
++            <td>U805</td>
++            <td>Leonard Prim Fracis Reyes</td>
++        </tr>
++        <tr>
++            <td>3:30 PM-4:50 PM</td>
++            <td>Information Management (Lecture)</td>
++            <td>G403</td>
++            <td>Anna Rhodora Quitaleg</td>
++        </tr>
++        <tr>
++            <td>4:50 PM-6:10 PM</td>
++            <td>Information Management (LAB)</td>
++            <td>M305</td>
++            <td>Jessie Martirez</td>
++        </tr>
++        <tr>
++            <td>Tuesday</td>
++            <td>7:30 AM-8:50 AM</td>
++            <td>Accounting Essemtials</td>
++            <td>U805</td>
++            <td>Luis Meing</td>
++        </tr>
++        <tr>
++            <td>Wednesday</td>
++            <td>7:30 AM-8:50 AM</td>
++            <td>Accounting Essemtials</td>
++            <td>U805</td>
++            <td>Luis Meing</td>
++        </tr>
++        <tr>
++            <td>Thursday</td>
++            <td>7:30 AM-8:50 AM</td>
++            <td>Accounting Essemtials</td>
++            <td>U805</td>
++            <td>Luis Meing</td>
++        </tr>
++        <tr>
++            <td>Friday</td>
++            <td>7:30 AM-8:50 AM</td>
++            <td>Accounting Essemtials</td>
++            <td>U805</td>
++            <td>Luis Meing</td>
++        </tr>
++    </table>
++</body>
++</html>
+\ No newline at end of file
+
+commit b051c43abbda9884d626daf3394db9f82910c0c4
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-09-26 11:44:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-26 11:44:16 +0800
+
+    Add files via upload
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..e69de29
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..7661435
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,29 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<style>
++    .align{
++        text-align: right;
++    }
++    li{
++        list-style-type: none;
++    }
++</style>
++<body>
++    <h1>Links and Navigation</h1>
++    <a href="index.html">HOME | </a>
++    <a href="about.html">ABOUT | </a>
++    <a href="contact.html">CONTACT</a>
++    <hr>
++    <ul>
++        <li><a href="hhtps://google.com">Google</a></li>
++        <li><a href="https://www.youtube.com/">Youtube</a></li>
++        <li><a href="https://github.com/altakicelestino-sys/webtech/tree/main?search=1">Github</a></li>
++        <li><a href="https://mystudentportal.uc-bcf.edu.ph/PARENTS_STUDENTS/parents_student_index.htm">University</a></li>
++    </ul>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..40ac792
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1,51 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<style>
++    ul{
++        list-style-type: none;
++    }
++    .align{
++        text-align: center;
++    }
++</style>
++<body>
++    <h1 class="align">Type of Lists</h1>
++    <hr>
++    <h2>A. Ordered List</h2>
++    <ol>
++        Top 5 Programming Languages
++        <ul>
++            <li>JavaScript</li>
++            <li>Python</li>
++            <li>Java</li>
++            <li>PHP</li>
++            <li>C#</li>
++        </ul>
++    </ol>
++    <h2>B. Nested Lists</h2>
++    <ul>
++        Computer Science
++        <ul>
++            Programming
++            <ul>
++                <li>Java</li>
++                <li>Python</li>
++                <li>PHP</li>
++            </ul>
++        </ul>
++        <ul>
++            Web Development     
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>JavaScript</li>
++            </ul>
++        </ul>
++    </ul>
++</body>
++</html>
+\ No newline at end of file
+
+commit c29a0930d73ffb03c980bbb8ec5ecbf5cb6247d7
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-09-22 12:38:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:38:34 +0800
+
+    Add files via upload
+
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..de4296e
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,25 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<style>
++    img{
++        display: block;
++        margin-left: auto;
++        margin-right: auto;
++    }
++    .align{
++        text-align: center;
++    }
++</style>
++<body>
++    <h1 class="align">My profile</h1>
++    <hr>
++    <img src="profile.jfif" alt="Profile image" width="200" height="200" onclick="window.location.href='https://www.google.com';">
++    <h3 class="align">WIL HARVEY B. CELESTINO</h3>
++    <p class="align">Hello! I'm Wil Harvey B. Celestino, and you are currentlyt in my profile page. I am a second year college student in the University of the Cordilleras and currently majoring in Web Development. I am an ambivert and can do anything so long as a have company. I am more of a nerd when it comes to hobbies. I like games, novels, and mangas. That's all for me and nice to meet you!</p>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/profile.jfif b/profile.jfif
+new file mode 100644
+index 0000000..d4a4ffe
+Binary files /dev/null and b/profile.jfif differ
+
+commit da12a3f70d4ad309c03832808647cf6a5e9b03a2
+Author:     altakicelestino-sys <altakicelestino@gmail.com>
+AuthorDate: 2026-09-15 11:40:27 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 11:40:27 +0800
+
+    Initial commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..99f5971
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# webtech
+\ No newline at end of file
